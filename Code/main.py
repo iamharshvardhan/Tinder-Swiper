@@ -59,6 +59,6 @@ counter = 0
 while counter < 100:
     sleep(3)
     driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ARROW_RIGHT)
-    # sleep(3)
-    # driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ARROW_LEFT)
+    sleep(3)
+    driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ARROW_LEFT)
     counter += 1
